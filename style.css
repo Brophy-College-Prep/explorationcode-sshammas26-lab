@@ -4,8 +4,21 @@ body, html {
     height: 100%;
   }
   
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  #special {
+    background-color: white;
+    border: 2px dashed navy;
+    padding: 12px;
+  }
+
   h1 {
     color: navy;
+    text-align: center;
+    font-size: 48px;
   }
   
   ul {
@@ -13,7 +26,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: navy;
+    background-color: #45EF62;
   }
   
   li {
@@ -32,10 +45,8 @@ body, html {
     border-style: solid;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+    padding: 30px;
+    border-radius: 12px;
   }
   
   .parallax {
@@ -65,3 +76,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  li a:hover {
+  background-color: white;
+  color: navy;
+}
